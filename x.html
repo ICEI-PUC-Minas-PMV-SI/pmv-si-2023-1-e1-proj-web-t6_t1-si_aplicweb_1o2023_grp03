@@ -1,0 +1,199 @@
+<style>
+  .savings-calculator {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #006400;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    display: none;
+  }
+  
+  .result.show {
+    display: block;
+  }
+  
+  .result p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .result span {
+    font-weight: bold;
+  }
+  
+  .comparison {
+    margin-top: 20px;
+  }
+  
+  .comparison h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .row span {
+    font-weight: bold;
+  }
+  
+  #six-months,
+  #one-year,
+  #two-years,
+  #five-years,
+  #ten-years,
+  #fifteen-years,
+  #thirty-years {
+    font-weight: bold;
+    color: #008000;
+  }
+  
+  </style>
+
+  <script>
+    // get the input fields and the calculate button
+    const goalAmountInput = document.getElementById('goal-amount');
+    const monthlySavingInput = document.getElementById('monthly-saving');
+    const calculateBtn = document.getElementById('calculate-btn');
+  
+    // get the result and comparison elements
+    const resultSection = document.querySelector('.result');
+    const resultMonths = document.getElementById('result-months');
+    const sixMonths = document.getElementById('six-months');
+    const oneYear = document.getElementById('one-year');
+    const twoYears = document.getElementById('two-years');
+    const fiveYears = document.getElementById('five-years');
+    const tenYears = document.getElementById('ten-years');
+    const fifteenYears = document.getElementById('fifteen-years');
+    const thirtyYears = document.getElementById('thirty-years');
+  
+    // calculate the result and display it
+    function calculateResult() {
+      const goalAmount = goalAmountInput.value;
+      const monthlySaving = monthlySavingInput.value;
+      const months = Math.ceil(goalAmount / monthlySaving);
+      resultMonths.textContent = months;
+      sixMonths.textContent = `$${(monthlySaving * 6).toFixed(2)}`;
+      oneYear.textContent = `$${(monthlySaving * 12).toFixed(2)}`;
+      twoYears.textContent = `$${(monthlySaving * 24).toFixed(2)}`;
+      fiveYears.textContent = `$${(monthlySaving * 60).toFixed(2)}`;
+      tenYears.textContent = `$${(monthlySaving * 120).toFixed(2)}`;
+      fifteenYears.textContent = `$${(monthlySaving * 180).toFixed(2)}`;
+      thirtyYears.textContent = `$${(monthlySaving * 360).toFixed(2)}`;
+      resultSection.classList.add('show');
+    }
+  
+    // calculate the result when the button is clicked
+    calculateBtn.addEventListener('click', calculateResult);
+  
+    // calculate the result when the enter key is pressed
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        calculateResult();
+      }
+    });
+  
+    // calculate the result when either input field is changed
+    goalAmountInput.addEventListener('input', calculateResult);
+    monthlySavingInput.addEventListener('input', calculateResult);
+  </script>
+    
+  <div class="savings-calculator">
+    <h2>Savings Calculator</h2>
+    <div class="input-group">
+      <label for="goal-amount">Goal Amount:</label>
+      <input type="number" id="goal-amount" placeholder="Enter goal amount" />
+    </div>
+    <div class="input-group">
+      <label for="monthly-saving">Monthly Saving:</label>
+      <input type="number" id="monthly-saving" placeholder="Enter monthly saving" />
+    </div>
+    <button id="calculate-btn">Calculate</button>
+    <div class="result">
+      <p>You'll reach your goal in <span id="result-months"></span> months.</p>
+      <div class="comparison">
+        <h3>Comparison</h3>
+        <div class="row">
+          <span>6 months:</span>
+          <span id="six-months"></span>
+        </div>
+        <div class="row">
+          <span>1 year:</span>
+          <span id="one-year"></span>
+        </div>
+        <div class="row">
+          <span>2 years:</span>
+          <span id="two-years"></span>
+        </div>
+        <div class="row">
+          <span>5 years:</span>
+          <span id="five-years"></span>
+        </div>
+        <div class="row">
+          <span>10 years:</span>
+          <span id="ten-years"></span>
+        </div>
+        <div class="row">
+          <span>15 years:</span>
+          <span id="fifteen-years"></span>
+        </div>
+        <div class="row">
+          <span>30 years:</span>
+          <span id="thirty-years"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
