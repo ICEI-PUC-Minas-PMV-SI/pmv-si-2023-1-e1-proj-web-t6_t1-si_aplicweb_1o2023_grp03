@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001|  O site deve ser rápido e responsivo.  | MÉDIA | 
-|RNF-002| o site deve ser seguro. | MÉDIA | 
+|RNF-002| O site deve ser seguro. | MÉDIA | 
 
 
 ## Restrições
