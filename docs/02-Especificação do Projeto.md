@@ -17,7 +17,7 @@ incluem uma interface simples, instrutiva e amigável.
 
 ## Personas
 
-Paulo Henrique tem 25 anos, é advogado, solteiro e sonha em fazer pós graduação em Direito Internacional na Universidade de Roma,
+1. Paulo Henrique tem 25 anos, é advogado, solteiro e sonha em fazer pós graduação em Direito Internacional na Universidade de Roma,
 na Itália, pois quer sair da sua zona de conforto e viver essa experiência em outro país.
 Para que isso aconteça Paulo Henrique precisa juntar no mínimo 50.000 reais, somando o valor da passagem, valor anual da pós graduação e
 gastos pessoais, Paulo está ciente que precisa de um serviço que o ajude a atingir está meta estabelecida e depois de algumas pesquisas 
@@ -26,16 +26,23 @@ formulário, onde ele informa na nossa calculadora financeira em quanto tempo el
 mensalmente e aplicando uma rentabilidade média de 20% ao ano, com as informações necessárias obtidas é mostrado que seriam necessários
 38 meses para ele conseguir atingir sua meta financeira, é mostrado uma tabela para o caso de poupar dinheiro, e a outra tabela
 para o caso de investir o dinheiro com o retorno de 1% ao mês.
-Paulo Henrique por sua vez, achou um bom negócio e começa a investir o seu dinheiro no seu tão desejado sonho.
+
+2. José Mario tem 30 anos, é engenheiro civil, pai solteiro e tem uma filha menor de idade. Há exatamente três meses atrás o carro de José
+Mario pifou e ele chegou a conclusão que precisa comprar um novo carro porque o seu atual carro está velho e não compensa levar o mesmo
+para o conserto. Ele então procura na web um site que possa ajuda-lo a chegar ao seu objetivo de juntar 70.000 reais para comprar o seu
+desejado carro, ele encontra o site "Cofrinho" e é direcionado a nossa página introdutória, ele calcula na nossa calculadora financeira em
+quanto tempo ele levaria para atingir seu objetivo financeiro investindo 5.900,00 reais mensalmente, depois de obter as informaçãoes
+necessárias o resultado é que ele levaria 12 meses para atingir a meta estabelecida. José Mario achou um bom negócio e começa a investir o
+seu dinheiro.
 
 ## Histórias de Usuários
 
-As histórias de usuário incluem:
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-1. Quero ser capaz de definir meus objetivos financeiros no site "Cofrinho", para que possa planejar minhas finanças de acordo com eles.
-2. Quero ser capaz de criar um plano de economia mensal no site "Cofrinho", para que possa acompanhar meu progresso em relação aos meus
-objetivos financeiros.
-## Requisitos
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+| Usuário interessado em fazer pós graduação em outro país           | quero ser capaz de criar um plano de economia mensal no site "cofrinho" | para que que possa acompanhar meu progresso em relação ao meu objetivo financeiro |
+| Usuário interessado em comprar um carro novo | quero ser capaz de definir meus objetivos financeiros no site "Cofrinho" | para que possa planejar minhas finanças de acordo com eles |
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
@@ -43,27 +50,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve permitir que os usuários definam seus objetivos financeiros. | ALTA | 
+|RF-002| O site deve permitir que os usuários acompanhem o resultado mensal para alcançar seus objetivos.   | MÉDIA |
+|RF-003| O site deve permitir que o usuário veja os resultados em uma ótica de investimento a longo prazo. | MÉDIA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|  O site deve ser rápido e responsivo.  | MÉDIA | 
+|RNF-002| o site deve ser seguro. | MÉDIA | 
 
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-1. O site deve permitir que os usuários definam seus objetivos financeiros.
-2. O site deve permitir que os usuários acompanhem o resultado mensal para alcançar seus objetivos.
-3. O site deve permitir que o usuário veja os resultados em uma ótica de investimento a longo prazo.
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-1. O site deve ser rápido e responsivo.
-2. o site deve ser seguro.
 
 ## Restrições
 
@@ -73,10 +71,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
