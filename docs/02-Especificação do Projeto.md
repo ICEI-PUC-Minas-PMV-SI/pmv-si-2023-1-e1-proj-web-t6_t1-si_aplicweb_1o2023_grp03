@@ -2,25 +2,31 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O objetivo do nosso projeto é desenvolver um site chamado "cofrinho", que ajuda os usuários a organizar suas finanças pessoais.
+Um problema que muitos usuários enfrentam é a falta de organização financeira que dificulta o usuário alcançar seus objetivos financeiros.
+Para solucionar este e outros problemas nosso site disponibiliza uma calculadora financeira para ajudar os usuários a definir metas
+financeiras e traçar planos para alcançá-las, permitindo que os usuários meçam o desempenho simplesmente fazendo economias, ou
+investimentos a longo prazo.
+Manter as finanças pessoais em ordem é um aspecto essencial para garantir a estabilidade financeira e alcançar obejtivos a longo prazo,
+o site "cofrinho" promete auxiliar nesse processo, fornecendo ferramentas e recursos úteis para criar orçamentos e planejar investimentos.
+No nosso site os usuários podem estabelecer qualquer meta financeira, como economizar para uma viajem, saldar dívidas ou criar um fundo de
+emergência. O recurso de rastreamento de progresso permite que o usuário acompanhe seu progresso em relação às metas estabelecidas.
+Existem muitas ferramentas financeiras mas o diferencial do site "Cofrinho" é que ele promete atender todas todas as necessidades
+específicas dos usuários. O nosso site também conta com uma solução personalizada e de fácil utilização, as sugestões de melhoria
+incluem uma interface simples, instrutiva e amigável.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Paulo Henrique tem 25 anos, é advogado, solteiro e sonha em fazer pós graduação em Direito Internacional na Universidade de Roma,
+na Itália, pois quer sair da sua zona de conforto e viver essa experiência em outro país.
+Para que isso aconteça Paulo Henrique precisa juntar no mínimo 50.000 reais, somando o valor da passagem, valor anual da pós graduação e
+gastos pessoais, Paulo está ciente que precisa de um serviço que o ajude a atingir está meta estabelecida e depois de algumas pesquisas 
+ele encontra o site "Cofrinho" e solicita o nosso serviço. Paulo é direcionado a nossa página introdutória e depois solicita o serviço do
+formulário, onde ele informa na nossa calculadora financeira em quanto tempo ele levaria para atingir sua meta investindo 1.000 reais 
+mensalmente e aplicando uma rentabilidade média de 20% ao ano, com as informações necessárias obtidas é mostrado que seriam necessários
+38 meses para ele conseguir atingir sua meta financeira, é mostrado uma tabela para o caso de poupar dinheiro, e a outra tabela
+para o caso de investir o dinheiro com o retorno de 1% ao mês.
+Paulo Henrique por sua vez, achou um bom negócio e começa a investir o seu dinheiro no seu tão desejado sonho.
 
 ## Histórias de Usuários
 
