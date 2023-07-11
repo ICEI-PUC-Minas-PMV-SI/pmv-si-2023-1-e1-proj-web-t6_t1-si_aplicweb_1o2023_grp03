@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: Se você utilizar este projeto, por favor cite-o usando estas informações.
+title: Cofrinho
+abstract: O projeto Cofrinho é um site que ajuda os usuários a organizar suas finanças pessoais.
+version: 1.0
+url: https://cofrinho.surge.sh/
+repository-code: "https://github.com/cofrinho"
+programming-language: JavaScript
+citation-file-format:
+authors:
+  - family-names: Pinheiro Campos
+    given-names: Ana Clara
+  - family-names: Freitas da Silva
+    given-names: Bernardo Henrique
+  - family-names: Alfeu Mendes de Araújo
+    given-names: Bruno
+  - family-names: Betzel Martins
+    given-names: Erik Yan
+  - family-names: Vieira de Carvalho Santana
+    given-names: Gabriel
+  - family-names: Ramos Maciel Filho
+    given-names: Manoel Rubens
+  - name-suffix: Professor
+    family-names: Daher de Oliveira
+    given-names: Nesley Jesus
+    affiliation: PUC Minas
+    type: Person
+keywords:
+  - SISTEMA DE INFORMAÇÕES
+  - APLICAÇÕES WEB
+  - PRIMEIRO SEMESTRE
+  - HTML
+  - CSS
+  - JavaScript
+  - 11ty
+  - Surge
+  - Node.js
+  - finanças pessoais
+  - website
+  - projeto
+  - documentação
+  - design de interface
+  - teste de software
+  - repositório de código
+  - apresentação
