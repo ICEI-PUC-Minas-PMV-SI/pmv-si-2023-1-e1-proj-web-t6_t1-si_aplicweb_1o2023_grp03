@@ -1,6 +1,4 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
-<a href="../presentation/README.md"> Clique aqui para fazer os uploads dos arquivos de apresentação da solução.</a>
-
+Apresentação em vídeo 
+https://drive.google.com/drive/u/0/my-drive
